@@ -1,101 +1,367 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles.css">.
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Curriculum Vitae</title>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>curriculum vitae</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="melogo.jpg" >
+
 </head>
+
 <body>
-<header>
-  <h1><u>SJ Naude CV</u></h1>
-  
-</header> 
 
-<div class="main">
-<div>
-  <h2><u>About</u></h2>
-  <p>My Name is Shaun Naude, I am Currently 3rd year BSc Computer Science<br> at the University of Pretoria</p>
-</div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-<div>
-  <h2><u>Education</u></h2>
-  <ul>
-    <li>
-    Bsc Computer Science
-  </li>
-  </ul>
-</div>
+      <nav id="nav-wrap">
 
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-<div class="Interests">
-<h2 ><u>Interests</u></h2>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
 
-<ul>
-  <li>
-    GNU/Linux 
-  </li>
-  <li>
-    Free and open source software
-  </li>
-  <li>
-    Backend web development
-  </li>
-</ul>
+      </nav> <!-- end #nav-wrap -->
 
-</div>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Shaun Naude</h1>
+            <h3>I'm a Pretoria based <span>Computer Science Graduate</span>, <span>Software Engineer</span> and <span>Web developer.</span> I am currently in my final year at the University of Pretoria <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/shaun-naude-b19558184/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/ShaunNaude"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.instagram.com/_shaun0_/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
 
-<div class="skills">
-  <h2 ><u>Skills</u></h2>
-  
-  <ul>
-    <li>
-      C++ 
-    </li>
-    <li>
-      Java
-    </li>
-    <li>
-      Javascript
-    </li>
-    <li>
-      Linux system administration
-    </li>
-  </ul>
-  
-  </div>
-</div>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
 
 
-<div class="container">
-  <div class="content"></div>
-  <footer class="row">
-    <div class="social col-xs-12 col-sm-6 col-sm-push-6">
-      <ul class="row">
-        <li class="col-xs-6 col-sm-2">
-          <a href="https://github.com/ShaunNaude"><i class="fab fa-github fa-4x"></i></a>
-        </li>
-        <li class="col-xs-6 col-sm-2">
-          <a href="https://www.linkedin.com/in/shaun-naude-b19558184/"><i class="fab fa-linkedin-in fa-4x"></i></a>
-        </li>
-        <li class="col-xs-6 col-sm-2">
-          <a href="https://www.instagram.com/_shaun0_/"><i class="fab fa-instagram fa-4x"></i> </a>
-        </li>
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
-      </ul>
-    </div><!-- social media -->
-    
-    <div class="name col-xs-12 col-sm-3 col-sm-pull-6">
-    
-    </div>  <!-- name-->
-    
-    <div class="email col-xs-12 col-sm-3 col-sm-pull-6">
-      <p> &copy; Shaun Naude </p>
-      <p> Email:u18014080@tuks.co.za</p>
-    </div><!-- email -->
-  </footer>
-</div>
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/mypfp.png" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am currently a final year Computer Science student at the University of Pretoria. I am passionate about software development and enjoy challenging myself wherever possible. My hobbies include martial arts and GNU/Linux.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Shaun Naude</span><br>
+						   <span>Pretoria<br>
+						         South Africa
+                     </span><br>
+						   <span>0614930856</span><br>
+                   
+					   </p>
+
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Pretoria</h3>
+                  <p class="info">bachelor's degree in Computer Science <span>&bull;</span> <em class="date">January 2021</em></p>
+
+                  <p>
+                 I have attended TUKS from (2018-2020). 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Pretoria Boys High School</h3>
+                  <p class="info">Matriculant  <span>&bull;</span> <em class="date">November 2017</em></p>
+
+                  <p>
+                  I attended Boys High From (2013-2017)
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Module tutor</h3>
+                  <p class="info">Introduction to Programming module tutor <span>&bull;</span> <em class="date">febuary 2019 - july 2019</em></p>
+
+                  <p>
+                  I worked as a tutor within the Computer Science departement at the university of pretoria.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p> As of now I have completed my fundamental computer science and programming modules. I have learned how to do Front and Backend Web Development. Here is a list of the expereince I have due to Computer Science degree from the University of pretoria.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>C++</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Database Management </em></li>
+						<li><span class="bar-expand css"></span><em>GIT</em></li>
+						<li><span class="bar-expand html5"></span><em>Data Structures & Algorithms </em></li>
+                  <li><span class="bar-expand jquery"></span><em> Agile Development & Scrum </em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Please feel free to contact me.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Shaun Naude<br>
+						   Pretoria <br>
+						   South Africa<br>
+						   <span>0614930856</span>
+					   </p>
+
+				   </div>
+
+               
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/shaun-naude-b19558184/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/_shaun0_/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://github.com/ShaunNaude"><i class="fa fa-github"></i></a></li>
+
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright Shaun Naude</li>
+                  
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
